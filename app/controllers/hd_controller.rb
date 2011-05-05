@@ -18,6 +18,7 @@ class HdController < ApplicationController
     if @hd.machines.size > 0
       flash[:error] = "#{@hd.filename} cannot be deleted because it has virtual machines attached to it. Release them first."
       redirect_to hd_path
+      return
     end
 
     if request.delete?
