@@ -2,17 +2,18 @@
 <html>
 <head>
   <title>VirtualBox Web Interface</title>
-  <%= stylesheet_link_tag('reset') %>
-  <%= javascript_include_tag(:all) %>
-  <%= stylesheet_link_tag('application.less', :rel => 'stylesheet/less') %>
-  <%= javascript_include_tag('http://lesscss.googlecode.com/files/less-1.0.22.min.js') %>
+  <%= stylesheet_link_tag    "reset" %>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "jquery.min.js" %>
+  <%= javascript_include_tag "jquery.periodicalupdater.js" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tag %>
 </head>
 <body>
   <div id="container">
 
     <div id="header">
-      <div id="version">v0.3.0</div>
+      <div id="version">v0.4.0.pre</div>
       <h1>VirtualBox Web Interface</h1>
     </div>
 

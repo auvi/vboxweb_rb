@@ -17,4 +17,4 @@
 <% end %>
 
 <%= javascript_tag("stop_progress_bar();") if @import.completed? %>
-<%= javascript_tag("$('no_background_process').hide();") if @import.percent_imported > 0 %>
+<%= javascript_tag("$('#no_background_process').hide();") if @import.percent_imported > 0 %>

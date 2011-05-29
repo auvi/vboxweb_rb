@@ -14,7 +14,7 @@ body {
 #header {
   padding: 15px 5px 20px 60px;
   margin: 10px 20px;
-  background: transparent url(/images/virtualbox/logos/VirtualBox_cube_42px.png) no-repeat 5px 5px;
+  background: transparent url(/assets/virtualbox/logos/VirtualBox_cube_42px.png) no-repeat 5px 5px;
 
   #version {
     float: right;
@@ -189,28 +189,28 @@ body {
         }
 
         #general_view_link {
-          background: transparent url(/images/virtualbox/icons/general_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/general_16px.png) no-repeat 5px 5px;
         }
         #system_view_link {
-          background: transparent url(/images/virtualbox/icons/system_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/system_16px.png) no-repeat 5px 5px;
         }
         #display_view_link {
-          background: transparent url(/images/virtualbox/icons/display_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/display_16px.png) no-repeat 5px 5px;
         }
         #storage_view_link {
-          background: transparent url(/images/virtualbox/icons/storage_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/storage_16px.png) no-repeat 5px 5px;
         }
         #audio_view_link {
-          background: transparent url(/images/virtualbox/icons/audio_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/audio_16px.png) no-repeat 5px 5px;
         }
         #network_view_link {
-          background: transparent url(/images/virtualbox/icons/network_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/network_16px.png) no-repeat 5px 5px;
         }
         #usb_view_link {
-          background: transparent url(/images/virtualbox/icons/usb_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/usb_16px.png) no-repeat 5px 5px;
         }
         #shared_folders_view_link {
-          background: transparent url(/images/virtualbox/icons/shared_folders_16px.png) no-repeat 5px 5px;
+          background: transparent url(/assets/virtualbox/icons/shared_folders_16px.png) no-repeat 5px 5px;
         }
       }
 
@@ -226,35 +226,35 @@ body {
 
     #general .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/general_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/general_16px.png) no-repeat;
     }
     #system .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/system_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/system_16px.png) no-repeat;
     }
     #display .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/display_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/display_16px.png) no-repeat;
     }
     #storage .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/storage_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/storage_16px.png) no-repeat;
     }
     #audio .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/audio_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/audio_16px.png) no-repeat;
     }
     #network .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/network_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/network_16px.png) no-repeat;
     }
     #usb .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/usb_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/usb_16px.png) no-repeat;
     }
     #shared_folders .heading {
       height: 16px;
-      background: transparent url(/images/virtualbox/icons/shared_folders_16px.png) no-repeat;
+      background: transparent url(/assets/virtualbox/icons/shared_folders_16px.png) no-repeat;
     }
   }
 
@@ -371,7 +371,7 @@ body {
 
   #snapshots_tree {
     li {
-      list-style-image: url(/images/virtualbox/icons/snapshot_16px.png);
+      list-style-image: url(/assets/virtualbox/icons/snapshot_16px.png);
       margin-top: 4px;
 
       a {
@@ -389,7 +389,7 @@ body {
     }
 
     .current_state {
-      list-style-image: url(/images/virtualbox/icons/current_state_16px.png);
+      list-style-image: url(/assets/virtualbox/icons/current_state_16px.png);
     }
   }
 }

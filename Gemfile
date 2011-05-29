@@ -1,11 +1,21 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0.beta4'
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'rails', '3.1.0.rc1'
+gem 'sqlite3'
 
-gem 'mongrel'
+# Asset template engines
+gem 'json'
+gem 'sass'
+gem 'coffee-script'
+gem 'uglifier'
+
+gem 'jquery-rails'
 
 gem 'delayed_job'
-gem 'archive-tar-minitar', '0.5.2'
+gem 'archive-tar-minitar'
 
-gem 'virtualbox', '0.7.2'
+gem 'virtualbox'
+
+group :development do
+  gem 'mongrel', '1.2.0.pre2'
+end

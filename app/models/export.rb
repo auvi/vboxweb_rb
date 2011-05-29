@@ -52,11 +52,12 @@ class Export < ActiveRecord::Base
     end
     update_attribute(:status, 'exporting')
     machine.export(filepath, export_options) do |progress|
-      update_attribute(:percent_exported, progress.percent)
+      percentage = progress.percent / 100 * 95 # 0%-95% = VM export, 95%-100% = VM packaging
+      update_attribute(:percent_exported, percentage)
     end
-    update_attribute(:status, 'packaging')
+    update_attributes(:status => 'packaging', :percent_exported => 95)
     package
-    update_attribute(:status, 'completed')
+    update_attributes(:status => 'completed', :percent_exported => 100)
   rescue
     update_attribute(:status, 'failed')
   end

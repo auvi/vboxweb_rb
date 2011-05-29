@@ -1,5 +1,5 @@
 class CreateExports < ActiveRecord::Migration
-  def self.up
+  def change
     create_table :exports do |t|
       t.string :machine_uuid
       t.string :export_data
@@ -8,9 +8,5 @@ class CreateExports < ActiveRecord::Migration
 
       t.timestamps
     end
-  end
-
-  def self.down
-    drop_table :exports
   end
 end

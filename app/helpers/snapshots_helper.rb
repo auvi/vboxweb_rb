@@ -1,4 +1,5 @@
 module SnapshotsHelper
+
   def snapshot_tree_from(root_snapshot, current_snapshot)
     html = "<ul id='snapshots_tree'>"
     html += "<li class='#{"current_parent" if root_snapshot.uuid == current_snapshot.uuid}'>"
@@ -24,4 +25,5 @@ module SnapshotsHelper
     html += "<li class='current_state'>Current State</li>" if parent_snapshot.uuid == current_snapshot.uuid
     html += "</ul>"
   end
+
 end

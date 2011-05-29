@@ -1,4 +1,5 @@
 module HdHelper
+
   def formatted_display_of_drive(medium_attachment)
     if !medium_attachment || medium_attachment.medium.nil?
       "Empty"
@@ -9,4 +10,5 @@ module HdHelper
       text
     end
   end
+
 end

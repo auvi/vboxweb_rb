@@ -1,5 +1,5 @@
 class CreateImports < ActiveRecord::Migration
-  def self.up
+  def change
     create_table :imports do |t|
       t.string :filepath
       t.string :status
@@ -8,9 +8,5 @@ class CreateImports < ActiveRecord::Migration
 
       t.timestamps
     end
-  end
-
-  def self.down
-    drop_table :imports
   end
 end
